@@ -152,7 +152,7 @@
                                 </select>
                             </div>
                             <div class="field">
-                                <label>{{ __('Job Title / Position') }}</label>
+                                <label>{{ __('Workloads') }}</label>
                                 <div class="ui search dropdown selection uppercase jobposition">
                                     <input type="hidden" name="jobposition" value="{{$company_details->jobposition}}">
                                     <i class="dropdown icon"></i>

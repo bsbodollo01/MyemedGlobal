@@ -9,7 +9,7 @@
 
     <div class="container-fluid">
         <div class="row">
-            <h2 class="page-title">{{ __('Leaves of Absence') }}</h2>
+            <h2 class="page-title">{{ __('Leaves Absence') }}</h2>
         </div>
 
         <div class="row">

@@ -1,6 +1,9 @@
 
 body {
-    background-color: #E3F2FD;
+    background-image: url('../images/img/med-background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
 }
 
 body .wrapper {
@@ -32,7 +35,7 @@ body .wrapper {
 }
 
 .btnclock.active {
-    background: #03A9F4;
+    background: #6cbce0;
     color: white;
     outline: none;
 }
@@ -57,9 +60,9 @@ body .wrapper {
     width: 310px;
     height: 310px;
     border-radius: 50%;
-    background: #2196F3;
+    background: #6f96b5;
     display: inline-block;
-    border: 10px solid #B2EBF2
+    border: 10px solid #89ccd4;
 }
 
 .timeclock span {
@@ -202,7 +205,6 @@ img.wave {
     right: 0;
     width: 100%;
     height: auto;
-    z-index: -10;
 }
 
 @media (max-width: 390px) {

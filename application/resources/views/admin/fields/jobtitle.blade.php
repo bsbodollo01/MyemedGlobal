@@ -1,7 +1,7 @@
 @extends('layouts.default')
 
     @section('meta')
-        <title>Job Titles | Myemed Global</title>
+        <title>Workload | Myemed Global</title>
         <meta name="description" content="Myemed Global job titles, view job titles, and export or download job titles.">
     @endsection
 
@@ -11,7 +11,7 @@
     <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
-            <h2 class="page-title">{{ __("Job Title") }}
+            <h2 class="page-title">{{ __("Workload") }}
                 <button class="ui basic button mini offsettop5 btn-import float-right"><i class="ui icon upload"></i> {{ __("Import") }}</button>
                 <a href="{{ url('export/fields/jobtitle' )}}" class="ui basic button mini offsettop5 btm-export float-right"><i class="ui icon download"></i> {{ __("Export") }}</a>
             </h2>
@@ -36,7 +36,7 @@
                     <form id="add_jobtitle_form" action="{{ url('fields/jobtitle/add') }}" class="ui form" method="post" accept-charset="utf-8">
                         @csrf
                         <div class="field">
-                            <label>{{ __("Department") }}</label>
+                            <label>{{ __("Accounts") }}</label>
                             <select name="department" class="ui search dropdown getdeptcode">
                                 <option value="">Select Accounts</option>
                                 @isset($d)
@@ -48,7 +48,7 @@
                             </select>
                         </div>
                         <div class="field">
-                            <label>{{ __("Job Title") }} <span class="help">e.g. "Aging,ERA Payer Denied"</span></label>
+                            <label>{{ __("Workloads") }} <span class="help">e.g. "Aging,ERA Payer Denied"</span></label>
                             <input class="uppercase" name="jobtitle" value="" type="text" value="">
                         </div>
                         <div class="field">
@@ -75,8 +75,8 @@
                     <table width="100%" class="table table-striped table-hover" id="dataTables-example" data-order='[[ 1, "asc" ]]'>
                         <thead>
                             <tr>
-                                <th>{{ __("Job Title") }}</th>
-                                <th>{{ __("Department") }}</th>
+                                <th>{{ __("Workloads") }}</th>
+                                <th>{{ __("Accounts") }}</th>
                                 <th></th>
                             </tr>
                         </thead>

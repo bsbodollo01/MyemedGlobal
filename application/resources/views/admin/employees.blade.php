@@ -24,7 +24,7 @@
                             <th>{{ __('Employee') }}</th> 
                             <th>{{ __('Company') }}</th>
                             <th>{{ __('Account') }}</th>
-                            <th>{{ __('Position') }}</th>
+                            <th>{{ __('Workload') }}</th>
                             <th>{{ __('Status') }}</th>
                             <th class=""></th>
                         </tr>

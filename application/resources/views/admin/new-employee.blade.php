@@ -149,11 +149,11 @@
                                 </select>
                             </div>
                             <div class="field">
-                                <label>{{ __('Job Title / Position') }}</label>
+                                <label>{{ __('Workload') }}</label>
                                 <div class="ui search dropdown selection uppercase jobposition">
                                     <input type="hidden" name="jobposition">
                                     <i class="dropdown icon" tabindex="1"></i>
-                                    <div class="default text">Select Job Title</div>
+                                    <div class="default text">Select workload</div>
                                     <div class="menu">
                                     @isset($jobtitle)
                                         @isset($department)

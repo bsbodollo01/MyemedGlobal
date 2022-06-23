@@ -52,7 +52,7 @@ class FieldsController extends Controller
 
     /*
     |--------------------------------------------------------------------------
-    | Department
+    | Accounts
     |--------------------------------------------------------------------------
     */
     public function department() 
@@ -77,7 +77,7 @@ class FieldsController extends Controller
         ['department' => $department],
       ]);
 
-      return redirect('fields/department')->with('success', trans("New department has been added!"));
+      return redirect('fields/department')->with('success', trans("New Accounts has been added!"));
     }
 
     public function deleteDepartment($id, Request $request)
@@ -91,7 +91,7 @@ class FieldsController extends Controller
 
     /*
     |--------------------------------------------------------------------------
-    | Job Title or Position
+    | Workload
     |--------------------------------------------------------------------------
     */
     public function jobtitle() 
@@ -122,7 +122,7 @@ class FieldsController extends Controller
         ],
       ]);
 
-      return redirect('fields/jobtitle')->with('success', trans("New job title has been added!"));
+      return redirect('fields/jobtitle')->with('success', trans("New Workload has been added!"));
     }
 
     public function deleteJobtitle($id, Request $request)

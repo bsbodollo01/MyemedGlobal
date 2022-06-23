@@ -124,7 +124,7 @@ CREATE TABLE `tbl_company_data` (
 
 LOCK TABLES `tbl_company_data` WRITE;
 /*!40000 ALTER TABLE `tbl_company_data` DISABLE KEYS */;
-INSERT INTO `tbl_company_data` VALUES (1,1,'','','','','001122','2020-02-01','2020-02-01','',NULL),(2,2,'','','','','001133','2020-02-01','2020-02-01','',NULL);
+INSERT INTO `tbl_company_data` VALUES (1,1,'','','','','001122','2021-10-01','2021-10-01','',NULL),(2,2,'','','','','001133','2021-10-01','2021-10-01','',NULL);
 /*!40000 ALTER TABLE `tbl_company_data` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -285,7 +285,7 @@ CREATE TABLE `tbl_people` (
 
 LOCK TABLES `tbl_people` WRITE;
 /*!40000 ALTER TABLE `tbl_people` DISABLE KEYS */;
-INSERT INTO `tbl_people` VALUES (1,'MANAGER','','DEMO',NULL,'','manager@example.com','',NULL,NULL,NULL,'2020-01-03','','','','Active',NULL,''),(2,'DEMO','','EMPLOYEE',NULL,'','employee@example.com','',NULL,NULL,NULL,'2020-01-03','','','','Active',NULL,'');
+INSERT INTO `tbl_people` VALUES (1,'ManagerLastName','','ManagerFirstName',NULL,'','samplemanager@account.com','',NULL,NULL,NULL,'2021-10-15','','','','Active',NULL,''),(2,'EmployeeLastName','','EmployeeFirstName',NULL,'','sampleemployee@account.com','',NULL,NULL,NULL,'2021-10-15','','','','Active',NULL,'');
 /*!40000 ALTER TABLE `tbl_people` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -445,7 +445,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,1,'001122','DEMO, MANAGER','manager@example.com',1,2,1,'$2y$10$mDAH.R8JG5ThPelt4zRXc.8sxizt.tqXQfndx5s/W/3j0Sq6xS3LG','','2018-10-31 12:10:04','2018-10-31 12:10:04'),(2,2,'001133','DEMO, EMPLOYEE','employee@example.com',2,1,1,'$2y$10$3qjhKES39RmTl4k7PQWJ.OfG4uFzzF/iYJI8A1BLgYs2uDEfe5pry','','2018-12-21 05:20:18','2018-12-21 05:20:18');
+INSERT INTO `users` VALUES (1,1,'001122','MangerLastName, ManagerLastName','samplemanager@account.com',1,2,1,'$2y$10$mDAH.R8JG5ThPelt4zRXc.8sxizt.tqXQfndx5s/W/3j0Sq6xS3LG','','2018-10-31 12:10:04','2018-10-31 12:10:04'),(2,2,'001133','EmployeeLastName, EmployeeFirstName','sampleemployee@account.com',2,1,1,'$2y$10$3qjhKES39RmTl4k7PQWJ.OfG4uFzzF/iYJI8A1BLgYs2uDEfe5pry','','2018-12-21 05:20:18','2018-12-21 05:20:18');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -508,4 +508,3 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-02-13 19:19:01

@@ -1,12 +1,4 @@
 /*
-* Workday - A time clock application for employees
-* Email: official.codefactor@gmail.com
-* Version: 1.1
-* Author: Brian Luna
-* Copyright 2020 Codefactor
-*/
-
-/*
  * Semantic UI components initialization
  */
 $('.dropdown').dropdown();
@@ -382,14 +374,14 @@ $('#add_jobtitle_form').form({
             identifier: 'department',
             rules: [{
                 type: 'empty',
-                prompt: 'Please select a Department'
+                prompt: 'Please select a Account name'
             }]
         },
         jobtitle: {
             identifier: 'jobtitle',
             rules: [{
                 type: 'empty',
-                prompt: 'Please enter a Job Title name'
+                prompt: 'Please enter a Workload name'
             }]
         },
     }

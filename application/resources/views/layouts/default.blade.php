@@ -10,7 +10,7 @@
         <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('/assets/images/img/favicon-16x16.png') }}">
         <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('/assets/images/img/favicon-32x32.png') }}">
         <link rel="icon" type="image/x-icon" href="{{ asset('/assets/images/img/favicon.ico') }}">
-
+  
         @yield('meta')
 
         <link rel="stylesheet" type="text/css" href="{{ asset('/assets/vendor/bootstrap/css/bootstrap.min.css') }}">
@@ -18,7 +18,7 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('/assets/vendor/DataTables/datatables.min.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('/assets/vendor/flag-icon-css/css/flag-icon.min.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('/assets/css/style.css') }}">
-        
+       
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -138,7 +138,7 @@
                                       <div class="divider"></div>
                                       <a href="{{ url('fields/company') }}" class="item"><i class="ui icon university"></i>{{ __('Company') }}</a>
                                       <a href="{{ url('fields/department') }}" class="item"><i class="ui icon cubes"></i>{{ __('Accounts') }}</a>
-                                      <a href="{{ url('fields/jobtitle') }}" class="item"><i class="ui icon pencil alternate"></i>{{ __('Job Title') }}</a>
+                                      <a href="{{ url('fields/jobtitle') }}" class="item"><i class="ui icon pencil alternate"></i>{{ __('Workload') }}</a>
                                       <a href="{{ url('fields/leavetype') }}" class="item"><i class="ui icon calendar alternate outline"></i>{{ __('Leave Type') }}</a>
                                     </div>
                               </div>

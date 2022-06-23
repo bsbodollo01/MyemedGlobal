@@ -39,7 +39,7 @@
             <div class="colview col-md-6">
                 <div class="box box-success">
                     <div class="box-header with-border">
-                        <h3 class="box-title">{{ __("Department Population") }}</h3>
+                        <h3 class="box-title">{{ __("Accounts Population") }}</h3>
                     </div>
                     <div class="box-body">
                         <div class="canvas-wrapper">

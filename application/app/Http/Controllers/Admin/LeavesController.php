@@ -7,7 +7,7 @@ use App\Classes\permission;
 use App\Http\Requests;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Crypt;
-use App\Http\Controllers\Controller;
+use App\Http\Controllers\Controller; 
 
 class LeavesController extends Controller
 {

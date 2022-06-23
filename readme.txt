@@ -1,40 +1,34 @@
-## Getting Started
+Features of Myemed Attendance and monitoring For Employees
+	Employee Management (HRIS)
+	Time and Attendance Management
+	Real-time Attendance Monitoring
+	Web Time Clock and Time Tracker
+	Shift Management
+	Leave Management
+	Reporting and Analytics
+	Multi-language Support
+	Manager and Employee self-service
+	Unlimited Employees and Accounts
+	User role and User permission system
+	Desktop, Tablet, and Mobile responsive interface support
+	Runs on the cloud and desktop with self-hosted solution
+	Fully customizable
 
-Thank you for purchasing Workday. 
+Requirements
+	PHP version 7.1.3 or higher
+	OpenSSL PHP Extension
+	PDO PHP Extension
+	Mbstring PHP Extension
+	Tokenizer PHP Extension
+	Ctype PHP Extension
+	JSON PHP Extension
+	MySQL 5.x or higher
+	Nginx or Apache (recommended http server)
 
-Workday is a time clock application based on Laravel and PHP, designed for a time and attendance system, time tracking, employee time clock, and timekeeping application.
-
-If you have any question about Workday please feel free to contact with us. 
-If you need support, customization or feature request, you may email to us at official.codefactor@gmail.com
-
-## System Requirements
-
-PHP >= 7.1.3
-OpenSSL PHP Extension
-PDO PHP Extension
-Mbstring PHP Extension
-Tokenizer PHP Extension
-Ctype PHP Extension
-JSON PHP Extension
-MySQL 5.x or later versions
-Nginx or Apache (recommended) http server
-
-## Installation
-
-1. Unzip the Download file from Codecanyon. You will find two folders, one folder contains Documentation & another is Application Files.
-
-2. Upload the entire Application Files folder to your website or server.
-
-3. Next you can rename the folder to whatever you like (HR, TIMESHEET etc.)
-
-4. Import database from /Application/database/ folder named database.sql to your database server. Create a database user and grant all necessary privileges to the database on your server.
-
-5. Now visit the Application folder. A sample .env.example file is available here, rename the file to .env and 
-   open this file with your text editor and fill the database name DB_DATABASE=mydatabase, username DB_USERNAME=myuser and password DB_PASSWORD=mypassword.
-
-6. Next, please visit yourdomain.com/yourfolder or http://localhost/yourfolder for Admin or Employee portal.
-
-7. Use demo account for first time login. Use username: manager@example.com and password: demo12345. You may delete the demo manager and employee user account after creating a new manager type user.
-
-
-### If you need technical support or feature request, you may email to us at official.codefactor@gmail.com
+System Installation
+	- First, Save the system folder in the path: Local Disk(C:) xampp\htdocs and rename your folder to anything you want this name you could use to run your system later on.
+	- Second, open the xampp control panel and turn on MYSQL and APACHE. Go to the MYSQL dashboard and add a new blank database.
+	- Third, Name your database in your MYSQL according to what your system will use (MyemedDatabase).
+	- Fourth, In your blank database. Import database file from /Application/database/ folder named database.sql to your MySQL server. Then, grant the new user with all necessary 				privileges to the new database on your MySQL server.
+	- Fifth, Navigate to yourdomain.com/yourfolder or http://localhost/(name of your folder)/login for Admin or Employee portal.
+	- Lastly, Use the sample account for first time login. Login with username: samplemanager@account.com and password: demo12345. You may delete the Sample manager and employee user 			account after creating a new manager type account.

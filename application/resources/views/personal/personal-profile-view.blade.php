@@ -110,7 +110,7 @@
                                     <td><p>@isset($company_data->department) {{ $company_data->department }} @endisset</p></td>
                                 </tr>
                                 <tr>
-                                    <td>{{ __("Position") }}</td>
+                                    <td>{{ __("Wokrload") }}</td>
                                     <td>@isset($company_data->jobposition) {{ $company_data->jobposition }} @endisset</td>
                                 </tr>
                                 <tr>
